@@ -312,7 +312,7 @@ img {
 }
 
 .home__blob-img {
-  width: 170px;
+  width: 8rem;
 }
 
 .home__data {
@@ -1268,19 +1268,17 @@ footer .footer__social a:hover {
 /*==================== Waving hand  ====================*/
 .wave {
   animation-name: wave-animation;
-  /* Refers to the name of your @keyframes element below */
   animation-duration: 2.5s;
-  /* Change to speed up or slow down */
-  animation-iteration-count: infinite;
-  /* Never stop waving :) */
-  transform-origin: 70% 70%;
-  /* Pivot around the bottom-left palm */
+  animation-iteration-count:infinite;
+
+  transform-origin: 80% 90%;
+
   display: inline-block;
 }
 
 @keyframes wave-animation {
   0% {
-    transform: rotate(0.0deg)
+    transform: rotate(5.0deg)
   }
 
   10% {
@@ -1289,7 +1287,7 @@ footer .footer__social a:hover {
 
   /* The following five values can be played with to make the waving more or less extreme */
   20% {
-    transform: rotate(-8.0deg)
+    transform: rotate(-14.0deg)
   }
 
   30% {
@@ -1305,7 +1303,7 @@ footer .footer__social a:hover {
   }
 
   60% {
-    transform: rotate(0.0deg)
+    transform: rotate(10.0deg)
   }
 
   /* Reset for the last half to pause */
@@ -1319,3 +1317,5 @@ footer .footer__social a:hover {
   transform: translateY(-.25rem);
   transition: 1s;
 }
+
+
